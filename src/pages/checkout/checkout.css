@@ -1,0 +1,23 @@
+.mainCheckout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.butNowBtn {
+    cursor: pointer;
+    background-color: aqua;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 12.5rem;
+    height: 2.2rem;
+    transition: 0.2s;
+    margin-bottom: 0.7rem;
+}
+
+.butNowBtn:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

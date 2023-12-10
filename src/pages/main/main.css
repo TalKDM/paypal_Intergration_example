@@ -1,0 +1,57 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    gap: 0.8rem;
+}
+
+.product {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.2s;
+}
+
+.product:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.product h4:hover {
+    color: rgb(0, 101, 148);
+}
+
+.product h5 {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.product button {
+    cursor: pointer;
+    margin-bottom: 1rem;
+    background-color: lightblue;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.product button:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
